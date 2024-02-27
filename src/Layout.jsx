@@ -27,7 +27,7 @@ const Layout = () => {
   ];
   return (
     <div className="container">
-      <div className=" p-2">
+      <div className="lg:p-2">
         <header className=" lg:h-[100px] lg:flex justify-center items-center">
           <img src={logo} alt="Logo" className="lg:w-[30%] lg:h-[100px] " />
         </header>
@@ -69,7 +69,7 @@ const Layout = () => {
             </p>
           </div>
         </main>
-        <p className="my-6 font-medium p-2">
+        <p className="my-7 font-medium p-2">
           INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY
           RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF
           POWER FOR THE NATION.{" "}
@@ -99,7 +99,7 @@ const Layout = () => {
             );
           })}
         </div>
-        <div className="lg:w-swv bg-red-500 lg:flex justify-around items-center lg:h-[100px]  text-center ">
+        <div className="lg:w-swv bg-red-500 lg:flex justify-around items-center lg:h-[100px]  text-center p-2 lg:p-0">
           <div className="flex justify-center">
             <Io.IoMdCall className="mt-1 mr-2 text-white" />
             <p className="text-white">Toll free 9626667943</p>
